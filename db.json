@@ -1,0 +1,39 @@
+{
+	"ID": 42,
+	"TipBuilderID": "R2042",
+   "TipBuilderName": "Lots of Tips",
+   "EntranceName" :"Entrance Name goes here",
+   "EntranceLocation" :"",
+	"Services": [
+		{
+			"ID": 1,
+			"ServiceID": "xwqe",
+         "TipBuilderID": "R2042",
+         "ServiceName" : "service name..",
+			"Servers": [
+				{
+					"ID": 2,
+					"ServerID": "XP123",
+					"ServiceID": "xwqe",
+					"ServerName" : "Server name2",
+					"Tips": [
+						{
+							"ID": 2,
+               "TipID": "JHF4574",
+               "TipName" : "tip name2",
+							"ServerID": "XP123"
+						}
+					]
+				},
+				{
+					"ID": 3,
+					"ServerID": "AB123",
+					"ServiceID": "xwqe",					
+					"ServerName" : "Server name3",
+					"Tips": []
+				}
+			]
+		}
+	]
+
+}
